@@ -36,7 +36,7 @@
 }
 
 .banner .wrapper {
-  position: absolute;
+  position: fixed;
   top: 0;
   /*left: -100%;*/
   right: -100%;
@@ -778,7 +778,7 @@
   }
   .services h2 {
     font-family: "fonts", Source Sans3;
-    font-size: 16px;
+    font-size: 20px;
   }
   .services .servicetext {
     font-family: "fonts", Source Sans3;
@@ -786,41 +786,46 @@
     margin-top: -17px;
   }
   .services .material-symbols-outlined {
-    padding: 12px;
+    padding: 25px;
   }
   .services .hehe {
     font-family: "fonts", Source Sans3;
-    font-size: 12px;
+    font-size: 19px;
   }
   .services .amana {
     font-family: "fonts", Source Sans3;
-    font-size: 11px;
-    width: 77px;
+    font-size: 16px;
   }
   .services .amana2 {
     font-family: "fonts", Source Sans3;
-    font-size: 11px;
+    font-size: 16px;
     margin-bottom: -15px;
-    width: 67px;
   }
   .services .amana3 {
     font-family: "fonts", Source Sans3;
-    font-size: 11px;
-    width: 58px;
+    font-size: 16px;
     margin-bottom: -16px;
   }
   .services .amana4 {
     font-family: "fonts", Source Sans3;
-    font-size: 11px;
-    width: 71px;
+    font-size: 16px;
     margin-bottom: 8px;
+  }
+  .services .container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .welcome {
     height: 30vh;
   }
   .welcome .rap {
     font-family: "fonts", Source Sans3;
-    font-size: 16px;
+    font-size: 20px;
   }
   .welcome .button3 {
     width: 87px;
@@ -831,27 +836,35 @@
     font-size: 9px;
   }
   .portfolio .head {
-    font-size: 16px;
+    font-size: 20px;
+  }
+  .portfolio .pictures {
+    margin-bottom: 2px;
+    margin-left: -6px;
   }
   .portfolio .stationery {
-    margin: 20px;
+    margin: 8px;
     height: 42vh;
   }
   .portfolio .icecream {
-    margin: 20px;
+    margin: 8px;
     height: 42vh;
+    margin-top: 15px;
   }
   .portfolio .strawberries {
     height: 42vh;
-    margin: 20px;
+    margin: 8px;
+    margin-top: 15px;
   }
   .portfolio .strawberries .jona {
     display: block;
     width: 335px;
+    margin-left: 25px;
   }
   .portfolio .workspace {
     height: 42vh;
-    margin: 20px;
+    margin: 8px;
+    margin-top: 15px;
   }
   .portfolio .head2 {
     font-family: "fonts", Source Sans3;

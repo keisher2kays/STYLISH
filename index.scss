@@ -35,7 +35,8 @@ $second-color:white;
   flex-direction: column;
 
   .wrapper{
-      position: absolute;
+    // transform: translateY(100%);
+      position: fixed;
       top: 0;
       /*left: -100%;*/
       right: -100%;
@@ -583,6 +584,7 @@ a{
 
 
 @media (max-width:568px){
+ 
  .banner{
   width: 100%;
   height: 42vh;
@@ -638,6 +640,8 @@ a{
  }
 
 .services{
+  // display: flex;
+  // flex-direction: column;
   width: 57%;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -648,7 +652,7 @@ a{
 
   h2{
     font-family: "fonts", Source Sans3;
-      font-size: 16px;
+      font-size: 20px;
   }
   .servicetext{
     font-family: "fonts", Source Sans3;
@@ -656,34 +660,38 @@ a{
       margin-top: -17px;
   }
   .material-symbols-outlined{
-      padding: 12px;
+      padding: 25px;
   }
   .hehe{
     font-family: "fonts", Source Sans3;
-      font-size: 12px;
+      font-size: 19px;
   }
   .amana{
     font-family: "fonts", Source Sans3;
-      font-size: 11px;
-      width: 77px;
+      font-size: 16px;
+      // width: 77px;
   }
   .amana2{
     font-family: "fonts", Source Sans3;
-      font-size: 11px;
+      font-size: 16px;
       margin-bottom: -15px;
-      width: 67px;
+      // width: 67px;
   }
   .amana3{
     font-family: "fonts", Source Sans3;
-      font-size: 11px;
-      width: 58px;
+      font-size: 16px;
+      // width: 58px;
       margin-bottom: -16px;
   }
   .amana4{
     font-family: "fonts", Source Sans3;
-      font-size: 11px;
-      width: 71px;
+      font-size: 16px;
+      // width: 71px;
       margin-bottom: 8px;
+  }
+  .container2{
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -692,7 +700,7 @@ a{
 
   .rap{
     font-family: "fonts", Source Sans3;
-      font-size: 16px;
+      font-size: 20px;
   }
   .button3{
     width: 87px;
@@ -706,29 +714,37 @@ a{
 
 .portfolio{
 .head{
-  font-size: 16px;
+  font-size: 20px;
+}
+.pictures{
+  margin-bottom: 2px;
+  margin-left: -6px;
 }
 
   .stationery{
-     margin: 20px;
+     margin: 8px;
       height: 42vh;
   }
   .icecream{
-    margin: 20px;
+    margin: 8px;
       height: 42vh;
+      margin-top: 15px;
   }
   .strawberries{
     height: 42vh;  
-    margin: 20px; 
+    margin: 8px; 
+    margin-top: 15px;
 
     .jona{
       display: block;
       width: 335px;
+      margin-left: 25px;
     }
   }
   .workspace{
     height: 42vh;  
-    margin: 20px; 
+    margin: 8px; 
+    margin-top: 15px;
   }
   .head2{
     font-family: "fonts", Source Sans3;
