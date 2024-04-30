@@ -721,7 +721,7 @@
 
 @media (max-width: 568px) {
   .banner {
-    width: 100%;
+    width: 117%;
     height: 42vh;
   }
   .banner h1 {
@@ -737,13 +737,15 @@
   }
   .banner .button1 {
     font-family: "fonts", Source Sans3;
-    padding: 2px;
-    width: 87px;
+    padding: 15px;
+    width: 68px;
     margin-top: -220px;
   }
   .banner .find {
+    position: absolute;
+    margin-top: -6px;
+    margin-left: 6px;
     font-size: 9px;
-    margin-left: 16px;
   }
   .about {
     padding-top: 39px;
@@ -761,12 +763,15 @@
   }
   .about .button2 {
     font-family: "fonts", Source Sans3;
-    padding: 2px;
+    padding: 15px;
     margin-left: -15px;
-    width: 87px;
+    width: 68px;
   }
   .about .find2 {
     font-size: 9px;
+    position: absolute;
+    margin-left: 6px;
+    margin-top: -5px;
   }
   .services {
     width: 57%;
@@ -830,7 +835,7 @@
   .welcome .button3 {
     width: 87px;
     font-family: "fonts", Source Sans3;
-    padding: 2px;
+    padding: 6px;
   }
   .welcome .find3 {
     font-size: 9px;
@@ -888,7 +893,7 @@
   }
   .last .button4 {
     width: 87px;
-    padding: 2px;
+    padding: 6px;
     margin-left: -77px;
     position: absolute;
     margin-top: -27px;
@@ -899,7 +904,7 @@
   }
   .last .button5 {
     width: 87px;
-    padding: 2px;
+    padding: 6px;
     margin-top: -27px;
     margin-left: 26px;
   }
@@ -916,6 +921,14 @@
   }
   .footer .copy {
     font-family: "fonts", Source Sans3;
+  }
+  .footer .facebook {
+    margin-left: -7px;
+  }
+  .footer a {
+    padding: 11px;
+    height: 5vh;
+    width: 34px;
   }
 }
 

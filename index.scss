@@ -586,7 +586,7 @@ a{
 @media (max-width:568px){
  
  .banner{
-  width: 100%;
+  width: 117%;
   height: 42vh;
 
 
@@ -603,13 +603,15 @@ a{
      }
    .button1{
     font-family: "fonts", Source Sans3;
-      padding: 2px;
-      width: 87px;
+      padding: 15px;
+      width: 68px;
       margin-top: -220px;
    }
    .find{
+    position: absolute;
+    margin-top: -6px;
+    margin-left: 6px;
     font-size: 9px;
-    margin-left: 16px;
    }
  }
 
@@ -630,12 +632,15 @@ a{
   }
   .button2{
     font-family: "fonts", Source Sans3;
-      padding: 2px;
+      padding: 15px;
       margin-left: -15px;
-      width: 87px;
+      width: 68px;
   }
   .find2{
     font-size: 9px;
+    position: absolute;
+    margin-left: 6px;
+    margin-top: -5px;
   }
  }
 
@@ -705,7 +710,7 @@ a{
   .button3{
     width: 87px;
     font-family: "fonts", Source Sans3;
-      padding: 2px;
+      padding: 6px;
   }
   .find3{
     font-size: 9px;
@@ -774,7 +779,7 @@ a{
 
   .button4{
     width: 87px;
-    padding: 2px;
+    padding: 6px;
     margin-left: -77px;
     position: absolute;
     margin-top: -27px;
@@ -786,7 +791,7 @@ a{
   }
   .button5{
     width: 87px;
-    padding: 2px;
+    padding: 6px;
 margin-top: -27px;
 margin-left: 26px;
   }
@@ -805,6 +810,14 @@ margin-left: 26px;
 
   .copy{
     font-family: "fonts", Source Sans3;
+  }
+  .facebook{
+    margin-left: -7px;
+  }
+  a{
+    padding: 11px;
+    height: 5vh;
+    width: 34px;
   }
 }
 

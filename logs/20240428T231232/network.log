@@ -1,0 +1,14 @@
+2024-04-28 23:12:38.173 [error] electron #1: https://update.code.visualstudio.com/api/update/win32-x64-user/stable/e170252f762678dec6ca2cc69aba1570769a5d39 - error undefined net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:12:38.953 [error] electron #2: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:12:41.241 [error] electron #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:12:43.690 [error] electron #4: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:12:44.852 [error] electron #5: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:12:46.495 [error] electron #6: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:12:58.086 [error] electron #7: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:13:00.679 [error] electron #8: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:13:03.185 [error] electron #9: https://update.code.visualstudio.com/api/update/win32-x64-user/stable/e170252f762678dec6ca2cc69aba1570769a5d39 - error undefined net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:13:28.772 [error] electron #10: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:13:31.935 [error] electron #11: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:17:42.628 [error] electron #12: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2024-04-28 23:22:42.690 [error] electron #13: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2024-04-29 00:03:51.302 [error] electron #14: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED

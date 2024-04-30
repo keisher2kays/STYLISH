@@ -1,0 +1,100 @@
+2024-04-28 23:12:40.541 [info] Extension host with pid 15024 started
+2024-04-28 23:12:40.542 [info] Skipping acquiring lock for c:\Users\UncommonStudent\Documents\New Project\User\workspaceStorage\fa0e9acd8f07894cfa9347ec1b72e552.
+2024-04-28 23:12:40.642 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-04-28 23:12:40.738 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-28 23:12:41.250 [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek, startup: true, activationEvent: 'workspaceContains:**/*.css,**/*.scss,**/*.sass,**/*.less'
+2024-04-28 23:12:42.603 [info] Eager extensions activated
+2024-04-28 23:12:42.616 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-28 23:12:42.622 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-28 23:12:43.926 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-04-28 23:12:44.476 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-04-28 23:12:44.542 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-04-28 23:12:44.811 [info] ExtensionService#_doActivateExtension ritwickdey.live-sass, startup: false, activationEvent: 'workspaceContains:**/*.s[ac]ss'
+2024-04-28 23:12:48.747 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-28 23:12:49.140 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-28 23:12:49.245 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-28 23:12:49.758 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-04-28 23:12:50.873 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-04-28 23:13:02.404 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1204
+2024-04-28 23:13:07.761 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1204
+2024-04-28 23:13:13.126 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1204
+2024-04-28 23:13:20.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1204
+2024-04-28 23:13:25.677 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1204
+2024-04-28 23:13:32.571 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1204
+2024-04-28 23:13:37.879 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1204
+2024-04-28 23:13:43.196 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1204
+2024-04-28 23:13:48.547 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1204
+2024-04-28 23:14:34.378 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1205
+2024-04-29 00:04:05.347 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1205
+2024-04-29 00:04:13.840 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-29 00:04:14.369 [error] Canceled: Canceled
+	at new O (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:46998)
+	at u.U (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:149:5539)
+	at F.<computed>.T.charCodeAt.F.<computed> (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:149:2993)
+	at d.g (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:186335)
+	at d.executeCommand (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:185773)
+	at E.registerCommand.description (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:185097)
+	at d.h (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:186874)
+	at d.g (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:185866)
+	at d.executeCommand (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:185773)
+	at Object.executeCommand (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:162:22785)
+	at o.O [as value] (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:945802)
+	at s.y (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:82:659)
+	at s.z (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:82:729)
+	at s.fire (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:82:945)
+	at Object.m [as dispose] (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:964886)
+	at c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:970920
+	at Array.forEach (<anonymous>)
+	at f.dispose (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:970906)
+	at a.<anonymous> (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:3830)
+	at a.dispose (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:3927)
+	at a.<anonymous> (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:948059)
+	at a.dispose (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:3927)
+	at o (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:30:714)
+	at m.eb (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:9967)
+	at c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:7816
+	at Array.map (<anonymous>)
+	at m.$ (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:7803)
+	at m.terminate (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:8077)
+	at o.terminate (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:162:1513)
+	at t (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:175:9917)
+	at MessagePortMain.<anonymous> (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:175:6342)
+	at MessagePortMain.emit (node:events:517:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-04-29 00:04:14.372 [error] Canceled: Canceled
+	at new O (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:46998)
+	at u.U (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:149:5539)
+	at F.<computed>.T.charCodeAt.F.<computed> (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:149:2993)
+	at d.g (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:186335)
+	at d.executeCommand (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:185773)
+	at E.registerCommand.description (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:185097)
+	at d.h (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:186874)
+	at d.g (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:185866)
+	at d.executeCommand (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:152:185773)
+	at Object.executeCommand (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:162:22785)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\github\dist\extension.js:2:324866)
+	at c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\github\dist\extension.js:2:325825
+	at o.value (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:1051703)
+	at s.y (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:82:659)
+	at s.z (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:82:729)
+	at s.fire (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:82:945)
+	at Object.m [as dispose] (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:964886)
+	at c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:970920
+	at Array.forEach (<anonymous>)
+	at f.dispose (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:970906)
+	at a.<anonymous> (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:3830)
+	at a.dispose (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:3927)
+	at a.<anonymous> (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js:2:948059)
+	at a.dispose (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:150:3927)
+	at o (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:30:714)
+	at m.eb (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:9967)
+	at c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:7816
+	at Array.map (<anonymous>)
+	at m.$ (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:7803)
+	at m.terminate (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:8077)
+	at o.terminate (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:162:1513)
+	at t (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:175:9917)
+	at MessagePortMain.<anonymous> (c:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:175:6342)
+	at MessagePortMain.emit (node:events:517:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-04-29 00:04:14.477 [info] Extension host with pid 15024 exiting with code 0

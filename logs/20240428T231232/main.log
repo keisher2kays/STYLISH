@@ -1,0 +1,18 @@
+2024-04-28 23:12:33.229 [error] Error: Unable to retrieve mac address (unexpected format)
+    at M (C:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\electron-main\main.js:38:98613)
+    at c (C:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\electron-main\main.js:40:36875)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\electron-main\main.js:40:36760
+2024-04-28 23:12:33.230 [error] Error: Error mutex already exists
+    at dt.W (C:\Users\UncommonStudent\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\electron-main\main.js:110:68581)
+2024-04-28 23:12:33.230 [info] update#setState idle
+2024-04-28 23:12:38.173 [error] update#isLatestVersion(): failed to check for updates
+2024-04-28 23:12:38.174 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:108522)
+    at SimpleURLLoaderWrapper.emit (node:events:517:28)
+2024-04-28 23:13:03.161 [info] update#setState checking for updates
+2024-04-28 23:13:03.193 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:108522)
+    at SimpleURLLoaderWrapper.emit (node:events:517:28)
+2024-04-28 23:13:03.193 [info] update#setState idle
+2024-04-29 00:04:14.479 [info] Extension host with pid 15024 exited with code: 0, signal: unknown.
