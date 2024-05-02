@@ -586,11 +586,11 @@ a{
 @media (max-width:568px){
  
  .banner{
-  width: 117%;
+  width: 135%;
   height: 42vh;
 
   .menu-btn{
-    right: -43px;
+    right: -121px;
   }
 
 
@@ -620,6 +620,7 @@ a{
  }
 
  .about{
+  width: 81%;
   padding-top: 39px;
   padding-bottom: 39px;
 
@@ -651,7 +652,7 @@ a{
 .services{
   // display: flex;
   // flex-direction: column;
-  width: 75%;
+  width: 92%;
   padding-top: 24px;
   padding-bottom: 24px;
 
@@ -706,7 +707,7 @@ a{
 
 .welcome{
   height: 30vh;
-  width: 117%;
+  width: 135%;
 
   .rap{
     font-family: "fonts", Source Sans3;
@@ -723,12 +724,15 @@ a{
 }
 
 .portfolio{
+
 .head{
+  margin-left: 128px;
   font-size: 20px;
 }
 .pictures{
+  margin-left: 155px;
   margin-bottom: 2px;
-  margin-left: 70px;
+  margin-left: 138px;
 }
 
   .stationery{
@@ -757,6 +761,7 @@ a{
     margin-top: 15px;
   }
   .head2{
+    margin-left: 122px;
     font-family: "fonts", Source Sans3;
       margin-top: 35px;
       // margin-bottom: -30px;
@@ -771,7 +776,7 @@ a{
 }
 
 .last{
-  width: 75%;
+  width: 92%;
   .zvinhu{
     font-family: "fonts", Source Sans3;
       font-size: 16px;
@@ -808,10 +813,11 @@ margin-left: 26px;
 }
 
 .map{
-  width: 75%;
+  width: 134%;
   height: 35vh;
 }
 .footer{
+  width: 88%;
   padding-top: 27px;
   padding-bottom: 27px;
 
