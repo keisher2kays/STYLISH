@@ -589,6 +589,10 @@ a{
   width: 117%;
   height: 42vh;
 
+  .menu-btn{
+    right: -43px;
+  }
+
 
   h1{
     font-family: "fonts", Source Sans3;
@@ -647,7 +651,7 @@ a{
 .services{
   // display: flex;
   // flex-direction: column;
-  width: 57%;
+  width: 75%;
   padding-top: 24px;
   padding-bottom: 24px;
 
@@ -702,6 +706,7 @@ a{
 
 .welcome{
   height: 30vh;
+  width: 117%;
 
   .rap{
     font-family: "fonts", Source Sans3;
@@ -723,7 +728,7 @@ a{
 }
 .pictures{
   margin-bottom: 2px;
-  margin-left: -6px;
+  margin-left: 70px;
 }
 
   .stationery{
@@ -766,6 +771,7 @@ a{
 }
 
 .last{
+  width: 75%;
   .zvinhu{
     font-family: "fonts", Source Sans3;
       font-size: 16px;
@@ -802,6 +808,7 @@ margin-left: 26px;
 }
 
 .map{
+  width: 75%;
   height: 35vh;
 }
 .footer{
