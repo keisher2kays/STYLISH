@@ -35,6 +35,7 @@ $second-color:white;
   flex-direction: column;
 
   .wrapper{
+    opacity: 100%;
     // transform: translateY(100%);
       position: fixed;
       top: 0;
@@ -232,7 +233,7 @@ $second-color:white;
   // }
 }
 
-.about{
+#about{
   padding: 100px;
   display: flex;
   flex-direction: column;
@@ -380,8 +381,7 @@ h2{
   font-size: 16px;
 }
 }
-
-.portfolio{
+#portfolio{
   color: white;
   padding-bottom: 80px;
   display: flex;
@@ -390,6 +390,7 @@ h2{
   flex-direction: column;
   
 .head{
+  text-align: center;
   font-family: "fonts2", Source Sans3;
   color: black;
   // margin-bottom: 5px;
@@ -397,6 +398,7 @@ h2{
   font-weight: bolder;
 }
 .head2{
+  text-align: center;
   font-family: "fonts2", Source Sans3;
   color:#e7aa05;
   margin-top: 90px;
@@ -586,11 +588,11 @@ a{
 @media (max-width:568px){
  
  .banner{
-  width: 135%;
+  width: 100%;
   height: 42vh;
 
   .menu-btn{
-    right: -121px;
+    right: 14px;
   }
 
 
@@ -607,20 +609,21 @@ a{
      }
    .button1{
     font-family: "fonts", Source Sans3;
-      padding: 15px;
+      padding: 1px;
       width: 68px;
+      // margin-left: -22px;
       margin-top: -220px;
    }
    .find{
-    position: absolute;
+    
     margin-top: -6px;
     margin-left: 6px;
     font-size: 9px;
    }
  }
 
- .about{
-  width: 81%;
+ #about{
+  width: 46%;
   padding-top: 39px;
   padding-bottom: 39px;
 
@@ -637,22 +640,22 @@ a{
   }
   .button2{
     font-family: "fonts", Source Sans3;
-      padding: 15px;
+      padding: 7px;
       margin-left: -15px;
       width: 68px;
   }
   .find2{
     font-size: 9px;
-    position: absolute;
+  
     margin-left: 6px;
     margin-top: -5px;
   }
  }
-
+#Services{
 .services{
   // display: flex;
   // flex-direction: column;
-  width: 92%;
+  width: 57%;
   padding-top: 24px;
   padding-bottom: 24px;
 
@@ -704,10 +707,11 @@ a{
     flex-direction: column;
   }
 }
+}
 
 .welcome{
   height: 30vh;
-  width: 135%;
+  width: 100%;
 
   .rap{
     font-family: "fonts", Source Sans3;
@@ -723,28 +727,31 @@ a{
   }
 }
 
-.portfolio{
+#portfolio{
 
 .head{
-  margin-left: 128px;
+  margin-left: -4px;
   font-size: 20px;
 }
 .pictures{
   margin-left: 155px;
   margin-bottom: 2px;
-  margin-left: 138px;
+  margin-left: -2px;
 }
 
   .stationery{
+    width: 100%;
      margin: 8px;
       height: 42vh;
   }
   .icecream{
+    width: 100%;
     margin: 8px;
       height: 42vh;
       margin-top: 15px;
   }
   .strawberries{
+    width: 100%;
     height: 42vh;  
     margin: 8px; 
     margin-top: 15px;
@@ -756,12 +763,13 @@ a{
     }
   }
   .workspace{
+    width: 100%;
     height: 42vh;  
     margin: 8px; 
     margin-top: 15px;
   }
   .head2{
-    margin-left: 122px;
+    margin-left: -14px;
     font-family: "fonts", Source Sans3;
       margin-top: 35px;
       // margin-bottom: -30px;
@@ -776,12 +784,12 @@ a{
 }
 
 .last{
-  width: 92%;
+  width: 57%;
   .zvinhu{
     font-family: "fonts", Source Sans3;
       font-size: 16px;
       margin-left: 95px;
-      width: 300px;
+      width: 178px;
 
   }
   .buttonse{
@@ -813,11 +821,11 @@ margin-left: 26px;
 }
 
 .map{
-  width: 134%;
+  width: 100%;
   height: 35vh;
 }
 .footer{
-  width: 88%;
+  width: 57%;
   padding-top: 27px;
   padding-bottom: 27px;
 
@@ -858,7 +866,7 @@ margin-left: 26px;
 
 
 
-  .about{
+  #about{
       .button2{
         font-family: "fonts", Source Sans3;
           margin-left: -27px;
@@ -867,10 +875,12 @@ margin-left: 26px;
         width: 590px;
       }
   }
+
+
   .welcome{
       height: 50vh;
   }
-  .portfolio{
+  #portfolio{
       .stationery{
           height: 30vh;
           width: 345px;
@@ -913,6 +923,11 @@ margin-left: 26px;
           margin-left: 17px;
           margin-top: 17px;
       }
+     .facebook {
+        margin-bottom: 20px;
+        margin-top: 9px;
+        margin-left: -1px;
+    }
   }
 }
 
@@ -923,7 +938,7 @@ margin-left: 26px;
   .welcome{
       height: 38vh;
   }
-  .portfolio{
+  #portfolio{
       .stationery{
           height: 25vh;
       }
@@ -962,5 +977,46 @@ margin-left: 26px;
           margin-top: 25px;
           // position: absolute;
       }
+       .facebook {
+        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-left: 9px;
+    }
   }
+}
+
+
+@media only screen and (min-width:1399.98px){
+  .banner{ 
+    height: 80vh;
+  }
+  #portfolio .pictures {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 152px;
+    max-width: 82%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer a {
+  background-color: #0080a3;
+  border-radius: 50%;
+  padding: 11px;
+  margin: 11px;
+  color: white;
+  height: 5vh;
+  width: 38px;
+}
+.footer .facebook {
+  margin-bottom: 20px;
+  margin-top: 2px;
+  margin-left: -5px;
+}
+
 }

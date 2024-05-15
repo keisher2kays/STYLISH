@@ -36,6 +36,7 @@
 }
 
 .banner .wrapper {
+  opacity: 100%;
   position: fixed;
   top: 0;
   /*left: -100%;*/
@@ -269,7 +270,7 @@
   font-weight: bold;
 }
 
-.about {
+#about {
   padding: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -286,22 +287,22 @@
           align-items: center;
 }
 
-.about .unsplash {
+#about .unsplash {
   font-family: "fonts", Source Sans3;
   color: blue;
 }
 
-.about h2 {
+#about h2 {
   font-family: "fonts", Source Sans3;
   padding: 5px;
 }
 
-.about .yoyo {
+#about .yoyo {
   font-size: 13px;
   font-family: "fonts", Source Sans3;
 }
 
-.about .button2 {
+#about .button2 {
   font-family: "fonts", Source Sans3;
   text-decoration: none;
   background-color: rgba(22, 22, 22, 0.932);
@@ -313,7 +314,7 @@
   width: 127px;
 }
 
-.about .find2 {
+#about .find2 {
   font-family: "fonts2", Source Sans3;
   font-weight: bold;
   margin-left: 16px;
@@ -452,7 +453,7 @@
   font-size: 16px;
 }
 
-.portfolio {
+#portfolio {
   color: white;
   padding-bottom: 80px;
   display: -webkit-box;
@@ -470,20 +471,22 @@
           flex-direction: column;
 }
 
-.portfolio .head {
+#portfolio .head {
+  text-align: center;
   font-family: "fonts2", Source Sans3;
   color: black;
   font-size: 40px;
   font-weight: bolder;
 }
 
-.portfolio .head2 {
+#portfolio .head2 {
+  text-align: center;
   font-family: "fonts2", Source Sans3;
   color: #e7aa05;
   margin-top: 90px;
 }
 
-.portfolio .stationery {
+#portfolio .stationery {
   background-image: url(portfolio-1.jpg);
   background-size: cover;
   display: -webkit-box;
@@ -503,7 +506,7 @@
   height: 45vh;
 }
 
-.portfolio .icecream {
+#portfolio .icecream {
   background-image: url(portfolio-2.jpg);
   background-size: cover;
   display: -webkit-box;
@@ -523,7 +526,7 @@
   height: 45vh;
 }
 
-.portfolio .strawberries {
+#portfolio .strawberries {
   background-image: url(portfolio-3.jpg);
   background-size: cover;
   display: -webkit-box;
@@ -543,7 +546,7 @@
   height: 45vh;
 }
 
-.portfolio .workspace {
+#portfolio .workspace {
   background-image: url(bg-callout.jpg);
   background-size: cover;
   display: -webkit-box;
@@ -563,7 +566,7 @@
   height: 45vh;
 }
 
-.portfolio .pictures {
+#portfolio .pictures {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -578,14 +581,14 @@
   margin-bottom: 30px;
 }
 
-.portfolio .in {
+#portfolio .in {
   font-family: "fonts2", Source Sans3;
   margin-right: 244px;
   font-weight: bolder;
   padding-top: 200px;
 }
 
-.portfolio .ptext {
+#portfolio .ptext {
   margin-left: -25px;
   font-family: "fonts", Source Sans3;
   padding-bottom: 84px;
@@ -721,11 +724,11 @@
 
 @media (max-width: 568px) {
   .banner {
-    width: 135%;
+    width: 100%;
     height: 42vh;
   }
   .banner .menu-btn {
-    right: -121px;
+    right: 14px;
   }
   .banner h1 {
     font-family: "fonts", Source Sans3;
@@ -740,87 +743,85 @@
   }
   .banner .button1 {
     font-family: "fonts", Source Sans3;
-    padding: 15px;
+    padding: 1px;
     width: 68px;
     margin-top: -220px;
   }
   .banner .find {
-    position: absolute;
     margin-top: -6px;
     margin-left: 6px;
     font-size: 9px;
   }
-  .about {
-    width: 81%;
+  #about {
+    width: 46%;
     padding-top: 39px;
     padding-bottom: 39px;
   }
-  .about .eish {
+  #about .eish {
     font-family: "fonts", Source Sans3;
     font-size: 13px;
     width: 322px;
   }
-  .about .yoyo {
+  #about .yoyo {
     font-family: "fonts", Source Sans3;
     font-size: 12px;
     width: 264px;
   }
-  .about .button2 {
+  #about .button2 {
     font-family: "fonts", Source Sans3;
-    padding: 15px;
+    padding: 7px;
     margin-left: -15px;
     width: 68px;
   }
-  .about .find2 {
+  #about .find2 {
     font-size: 9px;
-    position: absolute;
     margin-left: 6px;
     margin-top: -5px;
   }
-  .services {
-    width: 92%;
+  #Services .services {
+    width: 57%;
     padding-top: 24px;
     padding-bottom: 24px;
   }
-  .services .flex {
+  #Services .services .flex {
     margin: 2px;
   }
-  .services h2 {
+  #Services .services h2 {
     font-family: "fonts", Source Sans3;
     font-size: 20px;
   }
-  .services .servicetext {
+  #Services .services .servicetext {
     font-family: "fonts", Source Sans3;
     font-size: 10px;
     margin-top: -17px;
   }
-  .services .material-symbols-outlined {
+  #Services .services .material-symbols-outlined {
     padding: 25px;
   }
-  .services .hehe {
+  #Services .services .hehe {
     font-family: "fonts", Source Sans3;
     font-size: 19px;
   }
-  .services .amana {
+  #Services .services .amana {
     font-family: "fonts", Source Sans3;
     font-size: 16px;
   }
-  .services .amana2 {
+  #Services .services .amana2 {
     font-family: "fonts", Source Sans3;
     font-size: 16px;
     margin-bottom: -15px;
   }
-  .services .amana3 {
+  #Services .services .amana3 {
     font-family: "fonts", Source Sans3;
     font-size: 16px;
     margin-bottom: -16px;
   }
-  .services .amana4 {
+  #Services .services .amana4 {
     font-family: "fonts", Source Sans3;
     font-size: 16px;
     margin-bottom: 8px;
   }
-  .services .container2 {
+  #Services .services .container2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -831,7 +832,7 @@
   }
   .welcome {
     height: 30vh;
-    width: 135%;
+    width: 100%;
   }
   .welcome .rap {
     font-family: "fonts", Source Sans3;
@@ -845,59 +846,63 @@
   .welcome .find3 {
     font-size: 9px;
   }
-  .portfolio .head {
-    margin-left: 128px;
+  #portfolio .head {
+    margin-left: -4px;
     font-size: 20px;
   }
-  .portfolio .pictures {
+  #portfolio .pictures {
     margin-left: 155px;
     margin-bottom: 2px;
-    margin-left: 138px;
+    margin-left: -2px;
   }
-  .portfolio .stationery {
+  #portfolio .stationery {
+    width: 100%;
     margin: 8px;
     height: 42vh;
   }
-  .portfolio .icecream {
+  #portfolio .icecream {
+    width: 100%;
     margin: 8px;
     height: 42vh;
     margin-top: 15px;
   }
-  .portfolio .strawberries {
+  #portfolio .strawberries {
+    width: 100%;
     height: 42vh;
     margin: 8px;
     margin-top: 15px;
   }
-  .portfolio .strawberries .jona {
+  #portfolio .strawberries .jona {
     display: block;
     width: 335px;
     margin-left: 25px;
   }
-  .portfolio .workspace {
+  #portfolio .workspace {
+    width: 100%;
     height: 42vh;
     margin: 8px;
     margin-top: 15px;
   }
-  .portfolio .head2 {
-    margin-left: 122px;
+  #portfolio .head2 {
+    margin-left: -14px;
     font-family: "fonts", Source Sans3;
     margin-top: 35px;
   }
-  .portfolio .in {
+  #portfolio .in {
     font-family: "fonts", Source Sans3;
     margin-right: 221px;
   }
-  .portfolio .ptext {
+  #portfolio .ptext {
     font-family: "fonts", Source Sans3;
   }
   .last {
-    width: 92%;
+    width: 57%;
   }
   .last .zvinhu {
     font-family: "fonts", Source Sans3;
     font-size: 16px;
     margin-left: 95px;
-    width: 300px;
+    width: 178px;
   }
   .last .buttonse {
     margin-left: 73px;
@@ -924,11 +929,11 @@
     margin-left: 21px;
   }
   .map {
-    width: 134%;
+    width: 100%;
     height: 35vh;
   }
   .footer {
-    width: 88%;
+    width: 57%;
     padding-top: 27px;
     padding-bottom: 27px;
   }
@@ -963,29 +968,29 @@
     font-family: "fonts", Source Sans3;
     margin-top: -363px;
   }
-  .about .button2 {
+  #about .button2 {
     font-family: "fonts", Source Sans3;
     margin-left: -27px;
   }
-  .about .eish {
+  #about .eish {
     width: 590px;
   }
   .welcome {
     height: 50vh;
   }
-  .portfolio .stationery {
+  #portfolio .stationery {
     height: 30vh;
     width: 345px;
   }
-  .portfolio .icecream {
+  #portfolio .icecream {
     height: 30vh;
     width: 345px;
   }
-  .portfolio .workspace {
+  #portfolio .workspace {
     height: 30vh;
     width: 345px;
   }
-  .portfolio .strawberries {
+  #portfolio .strawberries {
     height: 30vh;
     width: 345px;
   }
@@ -1008,6 +1013,11 @@
     margin-left: 17px;
     margin-top: 17px;
   }
+  .footer .facebook {
+    margin-bottom: 20px;
+    margin-top: 9px;
+    margin-left: -1px;
+  }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1024px) {
@@ -1017,16 +1027,16 @@
   .welcome {
     height: 38vh;
   }
-  .portfolio .stationery {
+  #portfolio .stationery {
     height: 25vh;
   }
-  .portfolio .icecream {
+  #portfolio .icecream {
     height: 25vh;
   }
-  .portfolio .strawberries {
+  #portfolio .strawberries {
     height: 25vh;
   }
-  .portfolio .workspace {
+  #portfolio .workspace {
     height: 25vh;
   }
   .last .buttonse {
@@ -1047,6 +1057,45 @@
     margin-bottom: -10px;
     margin-left: 25px;
     margin-top: 25px;
+  }
+  .footer .facebook {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 9px;
+  }
+}
+
+@media only screen and (min-width: 1399.98px) {
+  .banner {
+    height: 80vh;
+  }
+  #portfolio .pictures {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 152px;
+    max-width: 82%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .footer a {
+    background-color: #0080a3;
+    border-radius: 50%;
+    padding: 11px;
+    margin: 11px;
+    color: white;
+    height: 5vh;
+    width: 38px;
+  }
+  .footer .facebook {
+    margin-bottom: 20px;
+    margin-top: 2px;
+    margin-left: -5px;
   }
 }
 /*# sourceMappingURL=index.css.map */
