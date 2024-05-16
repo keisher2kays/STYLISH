@@ -165,7 +165,7 @@
   position: absolute;
   content: "";
   background: #fff;
-  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  background: linear-gradient(375deg, #e8af46, #f1a20f);
   width: 100%;
   height: 100%;
   left: 0;
@@ -328,7 +328,7 @@
 .services .servicetext {
   font-family: "fonts", Source Sans3;
   text-align: center;
-  color: yellow;
+  color: #e8af46;
   font-size: small;
   display: block;
 }
@@ -1083,7 +1083,23 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .footer a {
+  #portfolio .pictures .icecream {
+    width: 545px;
+    height: 45vh;
+  }
+  #portfolio .pictures .stationery {
+    width: 545px;
+    height: 45vh;
+  }
+  #portfolio .pictures .strawberries {
+    width: 545px;
+    height: 45vh;
+  }
+  #portfolio .pictures .workspace {
+    width: 545px;
+    height: 45vh;
+  }
+  #portfolio .pictures .footer a {
     background-color: #0080a3;
     border-radius: 50%;
     padding: 11px;
@@ -1092,7 +1108,7 @@
     height: 5vh;
     width: 38px;
   }
-  .footer .facebook {
+  #portfolio .pictures .footer .facebook {
     margin-bottom: 20px;
     margin-top: 2px;
     margin-left: -5px;
