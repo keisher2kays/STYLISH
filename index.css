@@ -350,6 +350,7 @@
 }
 
 .services p {
+  color: #b5c1cb;
   font-family: "fonts", Source Sans3;
   margin-top: 5px;
   font-weight: lighter;
@@ -1146,7 +1147,7 @@
     font-size: 13px;
     margin-left: -10px;
   }
-  #portfolio .pictures .footer a {
+  .footer a {
     background-color: #0080a3;
     border-radius: 50%;
     padding: 11px;
@@ -1155,7 +1156,7 @@
     height: 5vh;
     width: 38px;
   }
-  #portfolio .pictures .footer .facebook {
+  .footer .facebook {
     margin-bottom: 20px;
     margin-top: 2px;
     margin-left: -5px;
