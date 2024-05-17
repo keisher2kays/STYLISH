@@ -583,7 +583,28 @@
 
 #portfolio .in {
   font-family: "fonts2", Source Sans3;
-  margin-right: 244px;
+  margin-right: 235px;
+  font-weight: bolder;
+  padding-top: 200px;
+}
+
+#portfolio .in2 {
+  font-family: "fonts2", Source Sans3;
+  margin-right: 125px;
+  font-weight: bolder;
+  padding-top: 200px;
+}
+
+#portfolio .in3 {
+  font-family: "fonts2", Source Sans3;
+  margin-right: 123px;
+  font-weight: bolder;
+  padding-top: 200px;
+}
+
+#portfolio .in4 {
+  font-family: "fonts2", Source Sans3;
+  margin-right: 122px;
   font-weight: bolder;
   padding-top: 200px;
 }
@@ -877,6 +898,12 @@
     width: 335px;
     margin-left: 25px;
   }
+  #portfolio .strawberries .in3 {
+    font-family: "fonts2", Source Sans3;
+    margin-right: 112px;
+    font-weight: bolder;
+    padding-top: 200px;
+  }
   #portfolio .workspace {
     width: 100%;
     height: 42vh;
@@ -890,7 +917,7 @@
   }
   #portfolio .in {
     font-family: "fonts", Source Sans3;
-    margin-right: 221px;
+    margin-right: 242px;
   }
   #portfolio .ptext {
     font-family: "fonts", Source Sans3;
@@ -1098,6 +1125,26 @@
   #portfolio .pictures .workspace {
     width: 545px;
     height: 45vh;
+  }
+  #portfolio .pictures .in {
+    margin-bottom: 9px;
+    margin-left: -26px;
+    font-size: 13px;
+  }
+  #portfolio .pictures .in2 {
+    margin-bottom: 9px;
+    margin-left: -7px;
+    font-size: 13px;
+  }
+  #portfolio .pictures .in3 {
+    margin-left: -10px;
+    margin-bottom: 9px;
+    font-size: 13px;
+  }
+  #portfolio .pictures .in4 {
+    margin-bottom: 9px;
+    font-size: 13px;
+    margin-left: -10px;
   }
   #portfolio .pictures .footer a {
     background-color: #0080a3;
